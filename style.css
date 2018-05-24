@@ -4,7 +4,7 @@ body {
 
 div {
   font-family: 'Righteous', cursive;
-  font-size: 150px;
+  font-size: 75px;
   color: #1FBEA0;
   position:absolute;
   top:50%;
@@ -16,7 +16,15 @@ div {
 }
 
 img {
-  height: 100px;
-  width: 100px;
+  /* height: 10%; */
+  width: 10%;
+  margin: auto;
+  /* text-align: center; */
   /* color: #1FBEA0; */
+}
+
+.name {
+  text-align: center;
+  display: block;
+  width: 100%;
 }
