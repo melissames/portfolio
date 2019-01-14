@@ -8,7 +8,10 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
-      <h1 className="about-title">About Melissa's Websites</h1><br />
+      <h1 className="about-title">About Melissa</h1>
+      <h2 className="about-description">My career started in NYC while attending the Flatiron School for Full Stack Web Development.  As an art lover, I was naturally more drawn to the front end.  I worked at Barkbox remaking their website Bark.co and am now freelancing as well as creating and building my own projects.</h2>
+      <br />
+      <h1 className="about-title">What's Important</h1><br />
         <div className="about-container">
           <div className="about-icon">
             <img src={LightningIcon} alt=""></img>

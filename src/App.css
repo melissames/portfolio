@@ -38,6 +38,8 @@
 /* AboutMe */
 .about-title {
   text-align: center;
+  /* margin-left: 4%; */
+  color: #76323F;
 }
 
 .about-container {
@@ -48,5 +50,7 @@
   text-align: center;
 }
 
-.about-icon {
+.about-description {
+  margin-left: 5%;
+  margin-right: 5%;
 }
