@@ -10,7 +10,7 @@ class PhotoHeader extends Component {
         <div className="header-positioning">
           <span className="photo-name">Melissa Sames</span>
           <br />
-          <span className="photo-subtext">Front End Web Developer</span>
+          <span className="photo-subtext">Developer and Designer</span><br />
         </div>
       </div>
     );

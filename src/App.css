@@ -3,6 +3,8 @@
   background-color: #D7CEC7;
 }
 
+
+/* PhotoHeader */
 .photo-container {
   position: relative;
 }
@@ -19,7 +21,8 @@
   margin-bottom: 10%;
   color: #D7CEC7;
   line-height: 200%;
-  font-weight: 595;
+  font-weight: 600;
+  text-align: center;
 }
 
 .photo-name {
@@ -29,4 +32,21 @@
 .photo-subtext {
   font-size: 175%;
   line-height: 10%;
+}
+
+
+/* AboutMe */
+.about-title {
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+  margin-top: 0%;
+  text-align: center;
+}
+
+.about-icon {
 }
