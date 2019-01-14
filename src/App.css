@@ -1,8 +1,32 @@
+.app-styling {
+  font-family: 'Poiret One', cursive;
+  background-color: #D7CEC7;
+}
+
+.photo-container {
+  position: relative;
+}
+
 .photo-header {
   width: 100%;
 }
 
+.header-positioning {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  color: #D7CEC7;
+  line-height: 200%;
+  font-weight: 595;
+}
 
-.whatever {
-  font-family: 'Poiret One', cursive;
+.photo-name {
+  font-size: 300%;
+}
+
+.photo-subtext {
+  font-size: 175%;
+  line-height: 10%;
 }

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import PhotoHeader from './components/PhotoHeader'
+import PhotoHeader from './components/PhotoHeader';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="app-styling">
         <PhotoHeader />
       </div>
     );
