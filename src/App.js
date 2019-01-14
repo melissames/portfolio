@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import PhotoHeader from './components/PhotoHeader';
 import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio'
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="app-styling">
         <PhotoHeader />
         <AboutMe />
+        <Portfolio />
       </div>
     );
   }

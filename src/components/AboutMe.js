@@ -9,10 +9,10 @@ class AboutMe extends Component {
     return (
       <div>
       <h1 className="about-title">About Melissa</h1>
-      <h2 className="about-description">My career started in NYC while attending the Flatiron School for Full Stack Web Development.  As an art lover, I was naturally more drawn to the front end.  I worked at Barkbox remaking their website Bark.co and am now freelancing as well as creating and building my own projects.</h2>
+      <h2 className="about-description">My career started in NYC while attending the Flatiron School for Full Stack Web Development.  As an art lover, I was naturally more to the front end.  I worked at Barkbox remaking their website Bark.co and am now freelancing as well as creating and building my own projects.</h2>
       <br />
       <h1 className="about-title">What's Important</h1><br />
-        <div className="about-container">
+        <div className="about-icon-container">
           <div className="about-icon">
             <img src={LightningIcon} alt=""></img>
             <h2>Fast Load Times</h2>

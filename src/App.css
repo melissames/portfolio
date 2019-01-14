@@ -1,3 +1,11 @@
+/* color scheme:
+Grain: #D7CEC7
+Blackboard: #565656
+Oxblood: #76323F
+Tan: #C09F80
+ */
+
+
 .app-styling {
   font-family: 'Poiret One', cursive;
   background-color: #D7CEC7;
@@ -38,19 +46,46 @@
 /* AboutMe */
 .about-title {
   text-align: center;
-  /* margin-left: 4%; */
   color: #76323F;
-}
-
-.about-container {
-  display: flex;
-  justify-content: space-around;
-  margin: 5%;
-  margin-top: 0%;
-  text-align: center;
 }
 
 .about-description {
   margin-left: 5%;
   margin-right: 5%;
+  color: #565656;
+}
+
+.about-icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+  margin-top: 0%;
+  text-align: center;
+  color: #565656;
+}
+
+
+/* Portfolio */
+
+.portfolio-container {
+  padding-top: 2%;
+  background-color: #565656;
+  color: #D7CEC7;
+}
+
+.portfolio-header {
+  text-align: center;
+}
+
+.portfolio-description {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.portfolio-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+  margin-top: 0%;
+  text-align: center;
 }
