@@ -87,7 +87,6 @@ Tan: #C09F80
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* margin: 5%; */
   margin-top: 0%;
   text-align: center;
 }
@@ -100,6 +99,11 @@ Tan: #C09F80
 .portfolio-image {
   width: 50vw;
   object-fit: contain;
+  margin: 5%;
+}
+
+.bark-co-image {
+  height: 30vw;
 }
 
 .portfolio-description {
