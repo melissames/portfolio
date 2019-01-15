@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ComingSoon from '../photos/ComingSoon.jpg';
 import PXL8 from '../photos/PXL8.png'
+import BarkCo from '../photos/BarkCo.gif'
 
 class Portfolio extends Component {
   render() {

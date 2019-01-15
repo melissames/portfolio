@@ -23,7 +23,7 @@ class AboutMe extends Component {
           </div>
           <div className="about-icon">
             <img src={GoalIcon} alt=""></img>
-            <h2>Inutitive UX/UI</h2>
+            <h2>Inuitive UX/UI</h2>
           </div>
         </div>
       </div>
