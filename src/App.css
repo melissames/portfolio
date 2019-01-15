@@ -84,8 +84,24 @@ Tan: #C09F80
 
 .portfolio-list {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   margin: 5%;
   margin-top: 0%;
   text-align: center;
+}
+
+.portfolio-coming-soon {
+  width: 30vw;
+  object-fit: contain;
+}
+
+.portfolio-bark-co {
+  width: 40vw;
+  object-fit: contain;
+}
+
+.portfolio-pie-chart {
+  width: 30vw;
+  object-fit: contain;
 }
