@@ -19,7 +19,7 @@ class Portfolio extends Component {
             </div>
           </div>
           <div className="portfolio-item-container">
-            <img src={BarkCo} alt="" className="portfolio-image"></img>
+            <img src={BarkCo} alt="" className="portfolio-image bark-co-image"></img>
             <div className="portfolio-description">
               <h2>Bark.co</h2>
               <h3>A marketing website for users interested in Bark as a company including a home page, careers page, press page, and contact page</h3>
