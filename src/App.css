@@ -71,6 +71,7 @@ Tan: #C09F80
   padding-top: 2%;
   background-color: #565656;
   color: #D7CEC7;
+  padding: 3%
 }
 
 .portfolio-header {
@@ -86,22 +87,23 @@ Tan: #C09F80
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 5%;
+  /* margin: 5%; */
   margin-top: 0%;
   text-align: center;
 }
 
-.portfolio-coming-soon {
-  width: 30vw;
+.portfolio-item-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio-image {
+  width: 50vw;
   object-fit: contain;
 }
 
-.portfolio-bark-co {
-  width: 40vw;
-  object-fit: contain;
-}
-
-.portfolio-pie-chart {
-  width: 30vw;
-  object-fit: contain;
+.portfolio-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
