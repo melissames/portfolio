@@ -67,6 +67,12 @@ Tan: #C09F80
   color: #565656;
 }
 
+@media only screen and (max-width: 600px) {
+  .about-icon-container {
+    flex-direction: column;
+  }
+}
+
 
 /* Portfolio */
 
@@ -110,11 +116,14 @@ Tan: #C09F80
 
 .portfolio-project-title {
   text-align: center;
+  font-size: 1.5em;
   margin: 0%;
 }
 
 .portfolio-project-description {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .portfolio-buttons {
