@@ -53,6 +53,9 @@ Tan: #C09F80
   margin-left: 5%;
   margin-right: 5%;
   color: #565656;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
 }
 
 .about-icon-container {
@@ -81,6 +84,9 @@ Tan: #C09F80
 .portfolio-description {
   margin-left: 5%;
   margin-right: 5%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
 }
 
 .portfolio-list {
@@ -93,21 +99,25 @@ Tan: #C09F80
 
 .portfolio-item-container {
   display: flex;
-  flex-direction: row;
-}
-
-.portfolio-image {
-  width: 50vw;
-  object-fit: contain;
-  margin: 5%;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .bark-co-image {
-  height: 30vw;
+  height: 50vw;
+  object-fit: contain;
 }
 
-.portfolio-description {
+.portfolio-project-title {
+  text-align: center;
+  margin: 0%;
+}
+
+.portfolio-project-description {
+  text-align: center;
+}
+
+.portfolio-buttons {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 }

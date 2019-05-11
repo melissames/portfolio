@@ -9,7 +9,8 @@ class AboutMe extends Component {
     return (
       <div>
       <h1 className="about-title">About Melissa</h1>
-      <h2 className="about-description">My career started in NYC while attending the Flatiron School for Full Stack Web Development.  As an art lover, I was naturally more to the front end.  I worked at Barkbox remaking their website Bark.co and am now freelancing as well as creating and building my own projects.</h2>
+      <p className="about-description">NYC based Web Developer with an interest in the intersection technology and creativity</p>
+      <p className="about-description">Specialized in Mongo, Express, React, and Node or Ruby, Vue, and Webpack</p>
       <br />
       <h1 className="about-title">What's Important</h1><br />
         <div className="about-icon-container">
