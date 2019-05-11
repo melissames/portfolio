@@ -12,9 +12,6 @@ class Portfolio extends Component {
           <a href="https://bark.co/" className="portfolio-project-title" target="_blank">Bark.co</a>
           <p className="portfolio-project-description">A website for users interested in Bark as a company including a home page, careers page, press page, and contact page built using Rails and Vue.js</p>
           <img src={BarkCo} alt="" className="bark-co-image"></img><br />
-          <div className="portfolio-buttons">
-            {/* <button>View Portfolio</button><button>Visit Github</button> */}
-          </div>
         </div>
       </div>
     );
