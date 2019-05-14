@@ -6,7 +6,7 @@ class Portfolio extends Component {
     return (
       <div className="portfolio-container">
         <h1 className="portfolio-header">Portfolio</h1>
-        <p className="portfolio-description">I currently available for freelancing and am also working with national political organizations and non-profits</p>
+        <p className="portfolio-description">I currently <strong>available</strong> for freelancing and am also working with national political organizations and non-profits</p>
         <br />
         <div className="portfolio-item-container">
           <a href="https://bark.co/" className="portfolio-project-title" target="_blank">Bark.co</a>
